@@ -1,0 +1,80 @@
+header
+{
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    background: url('./eth_card.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.withdrwaBtn {
+    width: 100%;
+    height: 42px;
+    background: #3D455F;
+    border: 2px solid #8C94A8;
+    border-radius: 23px;
+    transition: 0.3s;
+}
+
+.withdrwaBtn:hover{
+    background: #23293c;
+}
+
+.transferBtn {
+    background: #3D455F;
+    border-radius: 23px;
+    /* width: 171.28px; */
+    width: 100%;
+    height: 60px;
+    font-weight: 700;
+    color:white;
+    letter-spacing: 0.07em;
+    border:none;
+    transition: 0.3s;
+}
+
+.transferBtn:hover{
+    background: #23293c;
+}
+
+.plainText {
+    color: white;
+    letter-spacing: 0.07em;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.amountInput {
+    width: 107.45px;
+    height: 60px;
+    color: white;
+    border: 2px solid #3D455F;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 23px;
+    margin: 0px;
+}
+
+.amountInput:focus {
+    color: white;
+    background: transparent;
+}
+
+.textStyle {
+    color: white;
+    letter-spacing: 0.07em;
+}
+
+.blueBorder {
+    border: 5px solid blue;
+}
+
+.redBorder {
+    border: 2px solid red;
+}
+
+.yellowBorder {
+    border: 2px solid yellow;
+}
